@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cesta" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Cesta" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Cesta" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/include" />
+			<Add directory="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/json-develop/single_include/nlohmann" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libbrotlicommon.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libbrotlidec.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libcrypto.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libcurl.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libcurl.dll.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libnghttp2.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libnghttp3.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libngtcp2.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libngtcp2_crypto_quictls.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libssh2.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libssl.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libz.a" />
+			<Add library="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib/libzstd.a" />
+			<Add directory="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib" />
+		</Linker>
+		<Unit filename="Cesta.cpp" />
+		<Unit filename="Cesta.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

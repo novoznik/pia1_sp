@@ -1,0 +1,324 @@
+# depslib dependency file v1.0
+1700445153 source:c:\users\maxi_\onedrive\Рабочий стол\pia\project\cesta\main.cpp
+	<iostream>
+	<string>
+	<curl/curl.h>
+	<json.hpp>
+	"Cesta.h"
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1696995590 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\curlver.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\system.h
+	<ConditionalMacros.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\easy.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\multi.h
+	"curl.h"
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\options.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\header.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\websockets.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win32-mingw\include\curl\typecheck-gcc.h
+
+1698873387 c:\users\maxi_\onedrive\Рабочий стол\pia\project\json-develop\single_include\nlohmann\json.hpp
+	<algorithm>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<cstddef>
+	<exception>
+	<numeric>
+	<stdexcept>
+	<string>
+	<vector>
+	<array>
+	<cstddef>
+	<cstdint>
+	<string>
+	<utility>
+	<type_traits>
+	<stdint.h>
+	<stdint.h>
+	<version>
+	<cstdlib>
+	<cassert>
+	<compare>
+	<cstddef>
+	<array>
+	<cstddef>
+	<type_traits>
+	<utility>
+	<limits>
+	<type_traits>
+	<utility>
+	<tuple>
+	<iterator>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<cstring>
+	<string>
+	<utility>
+	<experimental/filesystem>
+	<filesystem>
+	<algorithm>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<utility>
+	<ranges>
+	<cstdint>
+	<tuple>
+	<utility>
+	<cstdint>
+	<cstddef>
+	<functional>
+	<algorithm>
+	<array>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<cstddef>
+	<cstring>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cstdio>
+	<istream>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<type_traits>
+	<algorithm>
+	<cctype>
+	<cerrno>
+	<cstdlib>
+	<iosfwd>
+	<limits>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<map>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<utility>
+	<vector>
+	<algorithm>
+	<cstddef>
+	<iterator>
+	<memory>
+	<string>
+	<vector>
+	<ios>
+	<ostream>
+	<algorithm>
+	<array>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<iomanip>
+	<type_traits>
+	<utility>
+	<array>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+	<functional>
+	<initializer_list>
+	<iterator>
+	<memory>
+	<stdexcept>
+	<type_traits>
+	<utility>
+	<vector>
+	<any>
+	<string_view>
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1696995590 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\curlver.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\system.h
+	<ConditionalMacros.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\easy.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\multi.h
+	"curl.h"
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\options.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\header.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\websockets.h
+
+1696485530 c:\users\maxi_\onedrive\Рабочий стол\pia\project\curl-8.4.0_6-win64-mingw\include\curl\typecheck-gcc.h
+
+1700444978 source:c:\users\maxi_\onedrive\Рабочий стол\pia\project\cesta\cesta.cpp
+	"Cesta.h"
+
+1700442204 c:\users\maxi_\onedrive\Рабочий стол\pia\project\cesta\cesta.h
+	<iostream>
+	<string>
+	<curl/curl.h>
+	<json.hpp>
+	<vector>
+
+1701008050 source:d:\vyuka\pia1\cesta\cesta\cesta.cpp
+	"Cesta.h"
+
+1701008050 d:\vyuka\pia1\cesta\cesta\cesta.h
+	<iostream>
+	<string>
+	<curl/curl.h>
+	<json.hpp>
+	<vector>
+
+1701008050 source:d:\vyuka\pia1\cesta\cesta\main.cpp
+	<iostream>
+	<string>
+	<curl/curl.h>
+	<json.hpp>
+	"Cesta.h"
+
