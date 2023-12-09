@@ -12,7 +12,7 @@ Pro kompilaci a spuštění aplikace je potřeba mít:
 -   Knihovnu [libcurl](https://curl.se/download.html) pro práci s HTTP požadavky.
 -   Knihovnu [nlohmann/json](https://github.com/nlohmann/json) pro zpracování JSON.
 
-V případě použítí Code::Blocks stačí umístit knihovny do složky projektu pod /lib/curl a /lib/json. Otevřete soubor projektu .cbp v Code::Blocks a spusťte build projektu.
+V případě použítí Code::Blocks stačí umístit knihovny do složky projektu pod \lib\curl a \lib\json. Otevřete soubor projektu .cbp v Code::Blocks a spusťte build projektu.
 
 ## Návod k použití
 
