@@ -13,25 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="curl/include" />
-					<Add directory="json/single_include/nlohmann" />
 				</Compiler>
-				<Linker>
-					<Add library="curl/lib/libbrotlicommon.a" />
-					<Add library="curl/lib/libbrotlidec.a" />
-					<Add library="curl/lib/libcrypto.a" />
-					<Add library="curl/lib/libcurl.a" />
-					<Add library="curl/lib/libcurl.dll.a" />
-					<Add library="curl/lib/libnghttp2.a" />
-					<Add library="curl/lib/libnghttp3.a" />
-					<Add library="curl/lib/libngtcp2.a" />
-					<Add library="curl/lib/libngtcp2_crypto_quictls.a" />
-					<Add library="curl/lib/libssh2.a" />
-					<Add library="curl/lib/libssl.a" />
-					<Add library="curl/lib/libz.a" />
-					<Add library="curl/lib/libzstd.a" />
-					<Add directory="curl/lib" />
-				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Cesta" prefix_auto="1" extension_auto="1" />
@@ -49,9 +31,24 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="lib/curl/include" />
+			<Add directory="lib/json/single_include/nlohmann" />
 		</Compiler>
 		<Linker>
-			<Add directory="C:/Users/maxi_/OneDrive/Рабочий стол/PIA/Project/curl-8.4.0_6-win64-mingw/lib" />
+			<Add library="lib/curl/lib/libbrotlicommon.a" />
+			<Add library="lib/curl/lib/libbrotlidec.a" />
+			<Add library="lib/curl/lib/libcrypto.a" />
+			<Add library="lib/curl/lib/libcurl.a" />
+			<Add library="lib/curl/lib/libcurl.dll.a" />
+			<Add library="lib/curl/lib/libnghttp2.a" />
+			<Add library="lib/curl/lib/libnghttp3.a" />
+			<Add library="lib/curl/lib/libngtcp2.a" />
+			<Add library="lib/curl/lib/libngtcp2_crypto_quictls.a" />
+			<Add library="lib/curl/lib/libssh2.a" />
+			<Add library="lib/curl/lib/libssl.a" />
+			<Add library="lib/curl/lib/libz.a" />
+			<Add library="lib/curl/lib/libzstd.a" />
+			<Add directory="lib/curl/lib" />
 		</Linker>
 		<Unit filename="Cesta.cpp" />
 		<Unit filename="Cesta.h" />
