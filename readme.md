@@ -18,7 +18,8 @@ V případě použítí Code::Blocks stačí umístit knihovny do složky projek
 
 1. Z webové stránky https://curl.se/download.html stáhnout curl-8.5.0.zip (případně jinou verzi)
 2. Ve složce s projektem (kde umístěn soubor Cesta.cbp) vytvořit novou složku lib, v ní vytvořit složku curl
-3. Do složky \lib\curl přemístit soubory z archivu curl-8.5.0.zip 
+3. Do složky \lib\curl přemístit soubory z archivu curl-8.5.0.zip
+
 Stejný postup platí i pro knihovnu nlohmann/json.
 
 ## Návod k použití
